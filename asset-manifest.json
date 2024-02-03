@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/nailbook/static/css/main.3a77b673.css",
-    "main.js": "/nailbook/static/js/main.02dfcaab.js",
+    "main.css": "/nailbook/static/css/main.e2e4da81.css",
+    "main.js": "/nailbook/static/js/main.f0eed60d.js",
     "static/js/592.657f17f4.chunk.js": "/nailbook/static/js/592.657f17f4.chunk.js",
-    "static/media/about.jpg": "/nailbook/static/media/about.0650072a33681000b05b.jpg",
+    "static/media/purpose.png": "/nailbook/static/media/purpose.f672971dee1f95cfcfa7.png",
     "static/media/intro.png": "/nailbook/static/media/intro.49298f2e5cd1a809559b.png",
     "static/media/bg.png": "/nailbook/static/media/bg.1c4ec58278fc122e65ea.png",
     "static/media/down_arrow.png": "/nailbook/static/media/down_arrow.002d2a13962d1170c288.png",
     "static/media/logo.svg": "/nailbook/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/nailbook/index.html",
-    "main.3a77b673.css.map": "/nailbook/static/css/main.3a77b673.css.map",
-    "main.02dfcaab.js.map": "/nailbook/static/js/main.02dfcaab.js.map",
+    "main.e2e4da81.css.map": "/nailbook/static/css/main.e2e4da81.css.map",
+    "main.f0eed60d.js.map": "/nailbook/static/js/main.f0eed60d.js.map",
     "592.657f17f4.chunk.js.map": "/nailbook/static/js/592.657f17f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a77b673.css",
-    "static/js/main.02dfcaab.js"
+    "static/css/main.e2e4da81.css",
+    "static/js/main.f0eed60d.js"
   ]
 }
