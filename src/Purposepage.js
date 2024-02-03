@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
-import purpose from './assets/img/about.jpg';
+import purpose from './assets/img/purpose.png';
 import downarrow from './assets/img/down_arrow.png'
+
 export function PurposePage() {
     const navigate = useNavigate();
     
@@ -38,7 +39,7 @@ export function PurposePage() {
             </nav>
             <section className="page-section about-heading">
                 <div className="container">
-                    <img className="img-fluid rounded about-heading-img mb-3 mb-lg-0" src={purpose} alt="..." />
+                    <img className="img-purpose rounded-5 about-heading-img mb-3 mb-lg-0" src={purpose} alt="..." />
                     <div className="about-heading-content">
                         <div className="row">
                             <div className="col-xl-9 col-lg-10 mx-auto">
@@ -58,7 +59,7 @@ export function PurposePage() {
                                 <div className="bg-faded3 rounded p-2">
                                     <p className='contentfont'>指甲健康監測</p>
                                 </div>
-                                <img className="img-fluid rounded about-heading-img mb-5 mb-lg-0" src={downarrow} alt="..." />
+                                <img className="img-fluid-set rounded about-heading-img mb-5 mb-lg-0" src={downarrow} alt="..." />
                                 <div className="bg-faded rounded p-0">
                                     <p className='contentfont'>可以提供使用者自主監測手腳指甲的變化</p>
                                 </div>
@@ -67,7 +68,7 @@ export function PurposePage() {
                                 <div className="bg-faded3 rounded p-2">
                                     <p className='contentfont'>醫療輔助工具​</p>
                                 </div>
-                                <img className="img-fluid rounded about-heading-img mb-5 mb-lg-0" src={downarrow} alt="..." />
+                                <img className="img-fluid-set rounded about-heading-img mb-5 mb-lg-0" src={downarrow} alt="..." />
                                 <div className="bg-faded rounded p-0">
                                     <p className='contentfont'>輔助醫護人員在診斷或監測疾病的時候作為參考</p>
                                 </div>
@@ -76,7 +77,7 @@ export function PurposePage() {
                                 <div className="bg-faded3 rounded p-2">
                                     <p className='contentfont'>普及指甲健康教育</p>
                                 </div>
-                                <img className="img-fluid rounded about-heading-img mb-5 mb-lg-0" src={downarrow} alt="..." />
+                                <img className="img-fluid-set rounded about-heading-img mb-5 mb-lg-0" src={downarrow} alt="..." />
                                 <div className="bg-faded rounded p-0">
                                     <p className='contentfont'>提供用戶關於手腳指甲健康的知識和教育，幫助一般民眾更了解這方面的健康重要性</p>
                                 </div>
