@@ -1,20 +1,3 @@
-import logo from './logo.svg';
-import './css/styles.css';
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import { HomePage } from './Homepage';
-import { PurposePage } from './Purposepage';
-
-function App() {
-  return (
-    <div className="App">
-      <Router>
-        <Routes>
-          <Route path="/nailbook" element ={<HomePage/>} />
-          <Route path="/nailbook/purpose" element ={<PurposePage/>} />
-        </Routes>
-      </Router>
-    </div>
-  );
-}
-
-export default App;
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c159bf119c243c6af89c21d90673eba67d13a8bdf54b436011bc990ccb293cc
+size 638
