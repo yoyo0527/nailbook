@@ -1,2 +1,0 @@
-src/assets/video/nail.mp4 filter=lfs diff=lfs merge=lfs -text
-src/assets/img/score.gif filter=lfs diff=lfs merge=lfs -text
