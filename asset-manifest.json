@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nailbook/static/css/main.d90142db.css",
-    "main.js": "/nailbook/static/js/main.97ae3088.js",
+    "main.js": "/nailbook/static/js/main.0cffb084.js",
     "static/js/592.657f17f4.chunk.js": "/nailbook/static/js/592.657f17f4.chunk.js",
     "static/media/purpose.png": "/nailbook/static/media/purpose.f672971dee1f95cfcfa7.png",
     "static/media/intro.png": "/nailbook/static/media/intro.49298f2e5cd1a809559b.png",
@@ -15,11 +15,11 @@
     "static/media/clubbing.jpg": "/nailbook/static/media/clubbing.dcb091ef2e3e11587cfc.jpg",
     "index.html": "/nailbook/index.html",
     "main.d90142db.css.map": "/nailbook/static/css/main.d90142db.css.map",
-    "main.97ae3088.js.map": "/nailbook/static/js/main.97ae3088.js.map",
+    "main.0cffb084.js.map": "/nailbook/static/js/main.0cffb084.js.map",
     "592.657f17f4.chunk.js.map": "/nailbook/static/js/592.657f17f4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d90142db.css",
-    "static/js/main.97ae3088.js"
+    "static/js/main.0cffb084.js"
   ]
 }
