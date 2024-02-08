@@ -76,6 +76,10 @@ export function VideoPage() {
         setScore(0);
     }
 
+    function handleDetect() {
+        navigate('/nailbook/detect');
+    }
+
     function handleAns(option) {
         return () => {
             switch (q) {
@@ -164,6 +168,8 @@ export function VideoPage() {
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleHome}>首頁</a></li>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleAbout}>組員介紹</a></li>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleAbout}>目的</a></li>
+                            <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleDetect}>辨識的疾病</a></li>
+
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleAbout}>運用技術</a></li>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handlevideopage}>觀看影片與測驗</a></li>
                         </ul>
@@ -200,11 +206,6 @@ export function VideoPage() {
                                     <div className="bg-faded-ans rounded p-1">
                                         <h4 onClick={handleAns('d')}>(D) {result && result.d}</h4>
                                     </div>
-                                    {/* {home&&
-                                        <div className="bg-faded-home rounded p-2">
-                                            <h4 onClick={handleHome}>回到首頁</h4>
-                                        </div>
-                                    } */}
                                 </div>
                             </div>                        
                         </div>

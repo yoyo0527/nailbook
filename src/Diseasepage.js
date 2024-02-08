@@ -1,10 +1,13 @@
+import './css/styles.css';
 import { useNavigate } from 'react-router-dom';
-import purpose from './assets/img/purpose.png';
-import downarrow from './assets/img/down_arrow.png'
+import graynail from './assets/img/graynail.jpg';
+import graynail2 from './assets/img/graynail2.gif';
 
-export function PurposePage() {
+import './App.css';
+
+export function DiseasePage() {
     const navigate = useNavigate();
-    
+
     function handleHome() {
         navigate('/nailbook');
     }
@@ -47,49 +50,50 @@ export function PurposePage() {
                     </div>
                 </div>
             </nav>
-            <section className="page-section about-heading">
+
+            <section className="page-section">
                 <div className="container">
-                    <img className="img-purpose rounded-5 about-heading-img mb-3 mb-lg-0" src={purpose} alt="..." />
-                    <div className="about-heading-content">
-                        <div className="row">
-                            <div className="col-xl-9 col-lg-10 mx-auto">
-                                <div className="bg-faded2 rounded p-4">
-                                    <h1 className="section-heading mb-4">
-                                        <span className="section-heading-lower"><h1>目的</h1></span>
-                                    </h1>
-                                </div>
+                    <div className="product-item">
+                        <div className="product-item-title d-flex">
+                            <div className="bg-faded p-5 d-flex ms-auto rounded">
+                                <h2 className="section-heading mb-0">
+                                    <span className="section-heading-upper">指甲疾病</span>
+                                    <span className="section-heading-lower">灰指甲</span>
+                                </h2>
                             </div>
-                            <div className="col-xl-9 col-lg-10 mx-auto">
-                                <div className="bg-faded3 rounded p-2">
-                                    <h4>指甲健康監測</h4>
-                                </div>
-                                <img className="img-fluid-set rounded about-heading-img mb-5 mb-lg-0" src={downarrow} alt="..." />
-                                <div className="bg-faded rounded p-0">
-                                    <p className='contentfont'>可以提供使用者自主監測手腳指甲的變化</p>
-                                </div>
-                            </div>
-                            <div className="col-xl-9 col-lg-10 mx-auto">
-                                <div className="bg-faded3 rounded p-2">
-                                    <h4>醫療輔助工具​</h4>
-                                </div>
-                                <img className="img-fluid-set rounded about-heading-img mb-5 mb-lg-0" src={downarrow} alt="..." />
-                                <div className="bg-faded rounded p-0">
-                                    <p className='contentfont'>輔助醫護人員在診斷或監測疾病的時候作為參考</p>
-                                </div>
-                            </div>
-                            <div className="col-xl-9 col-lg-10 mx-auto">
-                                <div className="bg-faded3 rounded p-2">
-                                    <h4>普及指甲健康教育</h4>
-                                </div>
-                                <img className="img-fluid-set rounded about-heading-img mb-5 mb-lg-0" src={downarrow} alt="..." />
-                                <div className="bg-faded rounded p-0">
-                                    <p className='contentfont'>提供用戶關於手腳指甲健康的知識和教育，幫助一般民眾更了解這方面的健康重要性</p>
-                                </div>
+                        </div>
+                        <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={graynail} alt="..." />
+                        <div className="product-item-description d-flex me-auto">
+                            <div className="bg-faded p-5 rounded">
+                                <p className="contentfont mb-0">正式名稱：甲癬</p>
+                                <p className="contentfont mb-0">別名：臭甲、灰指甲。</p>
+                                <p className="contentfont mb-0">成因：各種真菌，像是皮癬菌等。免疫力較差的人也可能會因為念珠菌而感染，像是糖尿病人。</p>
+                                <p className="contentfont mb-0">感染部位：指甲​</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+            <section className="page-section">
+                <div className="container">
+                    <div className="product-item">
+                        <div className="product-item-title d-flex">
+                            <div className="bg-faded p-5 d-flex me-auto rounded">
+                                <h2 className="section-heading mb-0">
+                                    <span className="section-heading-upper">Delicious Treats, Good Eats</span>
+                                    <span className="section-heading-lower">Bakery & Kitchen</span>
+                                </h2>
+                            </div>
+                        </div>
+                        <img className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/products-02.jpg" alt="..." />
+                        <div className="product-item-description d-flex ms-auto">
+                            <div className="bg-faded p-5 rounded"><p className="mb-0">Our seasonal menu features delicious snacks, baked goods, and even full meals perfect for breakfast or lunchtime. We source our ingredients from local, oragnic farms whenever possible, alongside premium vendors for specialty goods.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <footer className="footer text-faded text-center py-5">
                 <div className="container"><p className="m-0 small">Copyright &copy; Your Website 2024</p></div>
             </footer>
