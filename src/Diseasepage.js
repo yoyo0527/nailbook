@@ -69,10 +69,10 @@ export function DiseasePage() {
                         <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={graynail} alt="..." />
                         <div className="product-item-description d-flex me-auto">
                             <div className="bg-faded p-5 rounded">
-                                <p className="contentfont mb-0">正式名稱：甲癬</p>
-                                <p className="contentfont mb-0">別名：臭甲、灰指甲。</p>
-                                <p className="contentfont mb-0">成因：各種真菌，像是皮癬菌等。免疫力較差的人也可能會因為念珠菌而感染，像是糖尿病人。</p>
-                                <p className="contentfont mb-0">感染部位：指甲​</p>
+                                <p className="contentfont mb-0"><b>正式名稱：</b>甲癬</p>
+                                <p className="contentfont mb-0"><b>別名：</b>臭甲、灰指甲。</p>
+                                <p className="contentfont mb-0"><b>成因：</b>各種真菌，像是皮癬菌等。免疫力較差的人也可能會因為念珠菌而感染，像是糖尿病人。</p>
+                                <p className="contentfont mb-0"><b>感染部位：</b>指甲​</p>
                             </div>
                         </div>
                     </div>
