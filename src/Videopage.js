@@ -122,20 +122,19 @@ export function VideoPage() {
                 case 4:
                     if (option === 'a') {
                         Swal.fire('Correct', '回答正確', 'success').then(() => {
-                            
                             Swal.fire({
                                 text: '得分:' + (score+1),
                                 imageUrl: scorepic,
-                            });
-                            setHome(true);
+                            })
+                            navigate('/nailbook');
                         });
                     } else {
                         Swal.fire('Mistake', '正確答案為(A)模型自行發現模式和特徵', 'error').then(()=>{
                             Swal.fire({
-                                text: '得分:' + score,
+                                text: '得分:' + (score+1),
                                 imageUrl: scorepic,
                             })
-                            setHome(true);
+                            navigate('/nailbook');
                         });
                     } 
                     break;
@@ -201,11 +200,11 @@ export function VideoPage() {
                                     <div className="bg-faded-ans rounded p-1">
                                         <h4 onClick={handleAns('d')}>(D) {result && result.d}</h4>
                                     </div>
-                                    {home&&
+                                    {/* {home&&
                                         <div className="bg-faded-home rounded p-2">
                                             <h4 onClick={handleHome}>回到首頁</h4>
                                         </div>
-                                    }
+                                    } */}
                                 </div>
                             </div>                        
                         </div>
