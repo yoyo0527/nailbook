@@ -195,16 +195,16 @@ export function VideoPage() {
                                 </div>
                                 <div>
                                     <div className="bg-faded-ans rounded p-1">
-                                        <h4 onClick={handleAns('a')}>(A) {result && result.a}</h4>
+                                        <p className="contentfont mb-0" onClick={handleAns('a')}>(A) {result && result.a}</p>
                                     </div>
                                     <div className="bg-faded-ans rounded p-1">
-                                        <h4 onClick={handleAns('b')}>(B) {result && result.b}</h4>
+                                        <p className="contentfont mb-0" onClick={handleAns('b')}>(B) {result && result.b}</p>
                                     </div>
                                     <div className="bg-faded-ans rounded p-1">
-                                        <h4 onClick={handleAns('c')}>(C) {result && result.c}</h4>
+                                        <p className="contentfont mb-0" onClick={handleAns('c')}>(C) {result && result.c}</p>
                                     </div>
                                     <div className="bg-faded-ans rounded p-1">
-                                        <h4 onClick={handleAns('d')}>(D) {result && result.d}</h4>
+                                        <p className="contentfont mb-0" onClick={handleAns('d')}>(D) {result && result.d}</p>
                                     </div>
                                 </div>
                             </div>                        
