@@ -10,6 +10,8 @@ import beaus2 from './assets/img/beaus2.jpg';
 import blackline from './assets/img/blackline.jpg';
 import blackline2 from './assets/img/blackline2.png';
 import blackline3 from './assets/img/blackline3.webp';
+import nailbroken from './assets/img/nailbroken.jpg';
+import nailbroken2 from './assets/img/nailbroken2.jpg';
 
 import './App.css';
 
@@ -413,6 +415,86 @@ export function DiseasePage() {
                                     <li><p className="contentfont mb-0">不過若是<b>因為疾病而產生的黑線</b>，例如甲狀腺亢進、營養不良、乾癬、粘液囊腫、全身性紅斑性狼瘡等，則需要等疾病治療痊癒，指甲的黑線才會消失。​</p></li>
                                 </ul>
                                     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* 指甲剝離 */}
+            <section className="page-section">
+                <div className="container">
+                    <div className="product-item">
+                        <div className="product-item-title d-flex">
+                            <div className="bg-faded2 p-5 d-flex ms-auto rounded">
+                                <h2 className="section-heading mb-0">
+                                    <span className="section-heading-upper">指甲疾病</span>
+
+                                    <span className="section-heading-lower">指甲剝離​</span>
+                                </h2>
+                            </div>
+                        </div>
+                        <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={nailbroken} alt="..." />
+                        <div className="product-item-description d-flex me-auto">
+                            <div className="bg-faded p-5 rounded">
+                                <p className="contentfont mb-0">甲床剝離就是指甲板和下面的甲床黏不牢分開了，分開之後中間會有空氣，光線散射的關係所以常常呈現白或灰白的顏色，嚴重一點的話還會有指甲半掀半合搖搖欲墜的感覺。​​</p>
+                                <p className="contentfont mb-0">有時候分開的空隙裡面仔細看揮看到一層像粉屑的東西，那是甲床受傷之後產生皮膚化的現象（甲床脫皮）。​</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="page-section">
+                <div className="container">
+                    <div className="product-item">
+                        <div className="product-item-title d-flex">
+                            <div className="bg-faded2 p-5 d-flex me-auto rounded">
+                                <h2 className="section-heading mb-0">
+                                    <span className="section-heading-lower">指甲剝離的原因</span>
+                                </h2>
+                            </div>
+                        </div>
+                        <div className="product-item-description mx-auto d-flex rounded mb-3 mb-lg-0">
+                            <div className="bg-faded p-5 rounded">
+                                    <p className="contentfont mb-0">甲床剝離按照分離的位置又分為<b>遠端(onycholysis)、近端(onychomadesis)及中央</b>三種。​會造成剝離的原因有<b>先天和後天</b>兩大類，但又以後天居多。​</p>
+                                    <p className="contentfont mb-0">後天成因裡大致可分為以下幾種：​​</p>
+                                    <ul>
+                                        <p className="contentfont mb-0"><b>外在因素：​</b></p>
+                                        <li><p className="contentfont mb-0"><b>外傷:</b>這是造成甲床剝離最常見的原因，除了少數是急性外傷 (如指甲折傷)，多數是慢性外傷引起，譬如大量使用手部工作的人（如陶藝家、工廠作業員、鋼琴家、編織業、木匠、機械工等）或長期穿太緊的鞋子（如高跟鞋）、大量使用足部急停動作的運動（如羽球、馬拉松），還有些人則是喜歡撥弄指甲。​</p></li>
+                                        <li><p className="contentfont mb-0"><b>長時間潮濕:</b>如家庭主婦、美髮師、魚販、清潔工、洗衣工、廚師等，長時間需接觸水或液體。​​</p></li>
+                                        <li><p className="contentfont mb-0"><b>感染：</b>包括甲癬、念珠菌、腐生黴菌、細菌（如綠膿桿菌）、病毒（如腸病毒、單純性皰疹）、疥瘡等。​​</p></li>
+                                        <li><p className="contentfont mb-0"><b>接觸外來物品：</b>如刺激性物品，像是肥皂水、清潔劑、化學溶劑、指甲油、去光水、水晶指甲黏著劑、含福馬林的指甲硬化劑。​​​</p></li>
+                                        <li><p className="contentfont mb-0"><b>藥物：</b>有些藥物會堆積在指甲，甚至有光毒性。最常見的是抗生素，尤以四環黴素類最多（特別是常用來治療痘痘或毛囊炎的doxycycline），而氯黴素也有案例。另一類知名的是化療藥物​。​​​</p></li>
+                                    </ul>
+                                    <ul>
+                                        <p className="contentfont mb-0"><b>內在因素：​</b></p>
+                                        <li><p className="contentfont mb-0"><b>皮膚疾病：</b>最有明的是富貴手、異位性皮膚炎和乾癬，但其他像是扁平苔癬、天皰瘡、達瑞耳氏病、多汗症、甚至腫瘤（如化膿性肉芽腫、惡性黑色素細胞癌、絲球瘤、骨軟骨瘤等）也會造成。​​</p></li>
+                                        <li><p className="contentfont mb-0"><b>全身性疾病：</b>甲狀腺亢進最有名，其他如懷孕、貧血、糖尿病、紅斑性狼瘡、硬皮症、梅毒、遲發性皮膚紫質沉著症、類澱粉沉著症、多發性骨髓瘤、支氣管擴張症、末梢循環不良、皮膚淋巴瘤等都可能引起。​​​</p></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="page-section">
+                <div className="container">
+                    <div className="product-item">
+                        <div className="product-item-title d-flex">
+                            <div className="bg-faded2 p-5 d-flex ms-auto rounded">
+                                <h2 className="section-heading mb-0">
+                                    <span className="section-heading-lower">治療指甲剝離</span>
+                                </h2>
+                            </div>
+                        </div>
+                        <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={nailbroken2} alt="..." />
+                        <div className="product-item-description d-flex me-auto">
+                            <div className="bg-faded p-5 rounded">
+                                <p className="contentfont mb-0">治療甲床剝離的關鍵是找出引起的原因，避免接觸刺激物質，如水或化學品。根據不同原因，可以使用塗抹類固醇、抗黴菌藥物，或其他相應的治療方法。</p>
+                                <p className="contentfont mb-0">同時，可以嘗試使用保護性物質，如凡士林。嚴重剝離時，有時需要拔除指甲促使重新生長。在治療過程中，醫生的觀點和處方可能有所不同，有些情況下可能會考慮使用抗黴菌藥物，但效果因人而異。</p>
+                                <p className="contentfont mb-0">也有報告指出，使用抗生素對不明原因的甲床剝離有改善作用，可能與念珠菌相關。​</p>
                             </div>
                         </div>
                     </div>
