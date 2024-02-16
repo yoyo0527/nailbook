@@ -34,6 +34,10 @@ export function DiseasePage() {
         navigate('/nailbook/detect');
     }
 
+    function handleskillpage() {
+        navigate('/nailbook/skill');
+    }
+
     return (
         <div>
             <header>
@@ -54,7 +58,7 @@ export function DiseasePage() {
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleAbout}>目的</a></li>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleDetect}>辨識的疾病</a></li>
 
-                            <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleAbout}>運用技術</a></li>
+                            <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleskillpage}>運用技術</a></li>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handlevideopage}>觀看影片與測驗</a></li>
                         </ul>
                     </div>
@@ -143,10 +147,15 @@ export function DiseasePage() {
                             <div className="bg-faded p-5 rounded">
                                 <ul>
                                     <li><p className="contentfont mb-0">指甲出現變形、混濁，儘快去看皮膚科醫師​</p></li>
+                                    <hr/>
                                     <li><p className="contentfont mb-0">避免手腳泡水、赤腳走濕濕的路​</p></li>
+                                    <hr/>
                                     <li><p className="contentfont mb-0">手腳不共用同一支指甲剪，並定期消毒​</p></li>
+                                    <hr/>
                                     <li><p className="contentfont mb-0">穿吸汗的襪子，儘量讓腳部通風​</p></li>
+                                    <hr/>
                                     <li><p className="contentfont mb-0">接觸灰指甲患者、碰觸有黴菌的物品後，一定要記得徹底洗手、腳​</p></li>
+                                    <hr/>
                                 </ul>
                             </div>
                             
@@ -277,9 +286,13 @@ export function DiseasePage() {
                             <div className="bg-faded p-5 rounded">
                                 <ul>
                                     <li><p className="contentfont mb-0">近期患有重病、承受重大壓力或罹患特定疾病，造成身體營養及能量無法傳送至末端指甲。​</p></li>
+                                    <hr/>
                                     <li><p className="contentfont mb-0">指甲基質受到壓迫，導致指甲生長冒出凹痕。​</p></li>
+                                    <hr/>
                                     <li><p className="contentfont mb-0">患有嚴重皮膚問題，損害指甲基質。</p></li>
+                                    <hr/>
                                     <li><p className="contentfont mb-0">缺乏特定營養素，影響指甲生成。</p></li>
+                                    <hr/>
                                 </ul>
                                     
                             </div>
@@ -316,12 +329,14 @@ export function DiseasePage() {
                                         <li><p className="contentfont mb-0">週邊血管疾病​</p></li>
                                         <li><p className="contentfont mb-0">雷諾氏現象​</p></li>
                                     </ul>
+                                    <hr/>
                                     <li><p className="contentfont mb-0"><b>指甲基質受外在因素影響​</b></p></li>
                                     <ul>
                                         <li><p className="contentfont mb-0">指甲基質受重物壓迫​</p></li>
                                         <li><p className="contentfont mb-0">暴露於嚴寒環境​</p></li>
                                         <li><p className="contentfont mb-0">做指甲感染或不當修剪指甲​</p></li>
                                     </ul>
+                                    <hr/>
                                     <li><p className="contentfont mb-0"><b>皮膚疾病</b></p></li>
                                     <ul>
                                         <li><p className="contentfont mb-0">濕疹</p></li>
@@ -330,7 +345,10 @@ export function DiseasePage() {
                                         <li><p className="contentfont mb-0">缺乏鋅</p></li>
                                         <li><p className="contentfont mb-0">缺乏蛋白質​</p></li>
                                     </ul>
+                                    <hr/>
+
                                     <li><p className="contentfont mb-0"><b>值得注意的是，嚴重的精神壓力和心理疾病，也可能影響指甲健康，造成博氏線的出現。</b></p></li>
+                                    <hr/>
                                 </ul>
                             </div>
                         </div>
@@ -356,11 +374,17 @@ export function DiseasePage() {
                                     <p className="contentfont mb-0">指甲上的黑線超過95%為淡灰色、深黑色或淡棕色。指甲有黑線其實並不稀奇，不妨想像成甲床上長了痣，只是在指甲上以黑線的方式呈現。雖然任何年齡層都有可能在手指或腳趾出現，不過除了黑色素細胞活化外，<b>以下情況也可能會讓你的指甲長出黑線：</b></p>
                                 <ul>
                                     <li><p className="contentfont mb-0"><b>黴菌感染：</b>有些黴菌感染會產生黑色素堆積在指甲上，造成指甲出現線狀或塊狀黑色素沉積。​</p></li>
+                                    <hr/>
                                     <li><p className="contentfont mb-0"><b>疾病病徵：</b>甲狀腺亢進、營養不良、愛滋病、乾癬等都會讓指甲出現黑線。​</p></li>
+                                    <hr/>
                                     <li><p className="contentfont mb-0"><b>血塊淤積：</b>甲床下出血可能導致血液積聚於甲床變得暗沉，導致指甲出現黑線。​</p></li>
+                                    <hr/>
                                     <li><p className="contentfont mb-0"><b>藥物影響：</b>化a療藥物、治療青春痘的四環黴素。​</p></li>
+                                    <hr/>
                                     <li><p className="contentfont mb-0"><b>外傷：</b>摳抓、啃咬指甲造成色素沉澱。​</p></li>
+                                    <hr/>
                                     <li><p className="contentfont mb-0"><b>種族基因：</b>相較於亞洲人，黑人的指甲較容易出現黑線，據統計，約有77%的黑人到20歲前會出現縱向黑甲症。​</p></li>
+                                    <hr/>
                                 </ul>
                                     
                             </div>
@@ -412,7 +436,9 @@ export function DiseasePage() {
                             <div className="bg-faded p-5 rounded">
                                 <ul>
                                     <li><p className="contentfont mb-0">因<b>多數指甲黑線屬良性</b>，若只是單純黑色素細胞活化，或因口服藥物（四環黴素、化療藥物）、外傷等原因，只要停藥或是待外傷痊癒，過段時間就會自行消失。​</p></li>
+                                    <hr/>
                                     <li><p className="contentfont mb-0">不過若是<b>因為疾病而產生的黑線</b>，例如甲狀腺亢進、營養不良、乾癬、粘液囊腫、全身性紅斑性狼瘡等，則需要等疾病治療痊癒，指甲的黑線才會消失。​</p></li>
+                                    <hr/>
                                 </ul>
                                     
                             </div>
@@ -463,15 +489,22 @@ export function DiseasePage() {
                                     <ul>
                                         <p className="contentfont mb-0"><b>外在因素：​</b></p>
                                         <li><p className="contentfont mb-0"><b>外傷:</b>這是造成甲床剝離最常見的原因，除了少數是急性外傷 (如指甲折傷)，多數是慢性外傷引起，譬如大量使用手部工作的人（如陶藝家、工廠作業員、鋼琴家、編織業、木匠、機械工等）或長期穿太緊的鞋子（如高跟鞋）、大量使用足部急停動作的運動（如羽球、馬拉松），還有些人則是喜歡撥弄指甲。​</p></li>
+                                        <hr/>
                                         <li><p className="contentfont mb-0"><b>長時間潮濕:</b>如家庭主婦、美髮師、魚販、清潔工、洗衣工、廚師等，長時間需接觸水或液體。​​</p></li>
+                                        <hr/>
                                         <li><p className="contentfont mb-0"><b>感染：</b>包括甲癬、念珠菌、腐生黴菌、細菌（如綠膿桿菌）、病毒（如腸病毒、單純性皰疹）、疥瘡等。​​</p></li>
+                                        <hr/>
                                         <li><p className="contentfont mb-0"><b>接觸外來物品：</b>如刺激性物品，像是肥皂水、清潔劑、化學溶劑、指甲油、去光水、水晶指甲黏著劑、含福馬林的指甲硬化劑。​​​</p></li>
+                                        <hr/>
                                         <li><p className="contentfont mb-0"><b>藥物：</b>有些藥物會堆積在指甲，甚至有光毒性。最常見的是抗生素，尤以四環黴素類最多（特別是常用來治療痘痘或毛囊炎的doxycycline），而氯黴素也有案例。另一類知名的是化療藥物​。​​​</p></li>
+                                        <hr/>
                                     </ul>
                                     <ul>
                                         <p className="contentfont mb-0"><b>內在因素：​</b></p>
                                         <li><p className="contentfont mb-0"><b>皮膚疾病：</b>最有明的是富貴手、異位性皮膚炎和乾癬，但其他像是扁平苔癬、天皰瘡、達瑞耳氏病、多汗症、甚至腫瘤（如化膿性肉芽腫、惡性黑色素細胞癌、絲球瘤、骨軟骨瘤等）也會造成。​​</p></li>
+                                        <hr/>
                                         <li><p className="contentfont mb-0"><b>全身性疾病：</b>甲狀腺亢進最有名，其他如懷孕、貧血、糖尿病、紅斑性狼瘡、硬皮症、梅毒、遲發性皮膚紫質沉著症、類澱粉沉著症、多發性骨髓瘤、支氣管擴張症、末梢循環不良、皮膚淋巴瘤等都可能引起。​​​</p></li>
+                                        <hr/>
                                     </ul>
                             </div>
                         </div>
