@@ -4,6 +4,7 @@ import { HomePage } from './Homepage';
 import { PurposePage } from './Purposepage';
 import { VideoPage } from './Videopage';
 import { DiseasePage } from './Diseasepage';
+import { SkillPage } from './Skillpage';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <Route path="/nailbook/purpose" element ={<PurposePage/>} />
           <Route path="/nailbook/video" element ={<VideoPage/>} />
           <Route path="/nailbook/detect" element ={<DiseasePage/>} />
-
+          <Route path="/nailbook/skill" element ={<SkillPage/>} />
         </Routes>
       </Router>
     </div>

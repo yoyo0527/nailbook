@@ -21,6 +21,10 @@ export function PurposePage() {
         navigate('/nailbook/detect');
     }
 
+    function handleskillpage() {
+        navigate('/nailbook/skill');
+    }
+
     return (
         <div>
             <header>
@@ -41,7 +45,7 @@ export function PurposePage() {
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleAbout}>目的</a></li>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleDetect}>辨識的疾病</a></li>
 
-                            <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleAbout}>運用技術</a></li>
+                            <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleskillpage}>運用技術</a></li>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handlevideopage}>觀看影片與測驗</a></li>
                         </ul>
                     </div>

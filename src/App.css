@@ -7,7 +7,7 @@
 }
 
 .contentfont {
-  font-size: 20px;
+  font-size: 125%;
 }
 
 .img-fluid-set {
@@ -44,3 +44,6 @@
   height: 500px;
 }
 
+hr{
+  border: 2px solid rgb(186, 119, 71);
+}
