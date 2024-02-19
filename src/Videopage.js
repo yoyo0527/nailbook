@@ -139,7 +139,7 @@ export function VideoPage() {
                     } else {
                         Swal.fire('Mistake', '正確答案為(A)模型自行發現模式和特徵', 'error').then(()=>{
                             Swal.fire({
-                                text: '得分:' + (score+1),
+                                text: '得分:' + score,
                                 imageUrl: scorepic,
                             })
                             navigate('/nailbook');
