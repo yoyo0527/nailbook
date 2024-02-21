@@ -103,15 +103,15 @@ export function SkillPage() {
                                 </h2>
                                 <div className='row-xl-9'>
                                 <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                                    <li class="list-unstyled-item list-hours-item d-flex">
+                                    <li class="d-flex">
                                         <p className='contentfont'><b>監督式學習​</b></p>
                                         <span class="ms-auto"><p className='contentfont'>使用標記的資料進行訓練。</p></span>
                                     </li>
-                                    <li class="list-unstyled-item list-hours-item d-flex">
+                                    <li class="d-flex">
                                         <p className='contentfont'><b>非監督式學習</b></p>
                                         <span class="ms-auto"><p className='contentfont'>​根據資料的內在結構進行學習。​</p></span>
                                     </li>
-                                    <li class="list-unstyled-item list-hours-item d-flex">
+                                    <li class="d-flex">
                                         <p className='contentfont'><b>強化學習​</b></p>
                                         <span class="ms-auto"><p className='contentfont'>通過與環境的互動來學習。​</p></span>
                                     </li>
@@ -123,15 +123,15 @@ export function SkillPage() {
                                 </h2>
                                 <div className='row-xl-9'>
                                 <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                                    <li class="list-unstyled-item list-hours-item d-flex">
+                                    <li class="d-flex">
                                         <p className='contentfont'><b>結構化資料</b></p>
                                         <span class="ms-auto"><p className='contentfont'>包括數字矩陣和向量形式的資料。​</p></span>
                                     </li>
-                                    <li class="list-unstyled-item list-hours-item d-flex">
+                                    <li class="d-flex">
                                         <p className='contentfont'><b>非結構化資料​</b></p>
                                         <span class="ms-auto"><p className='contentfont'>例如圖像和音訊等。​</p></span>
                                     </li>
-                                    <li class="list-unstyled-item list-hours-item d-flex">
+                                    <li class="d-flex">
                                         <p className='contentfont'><b>即時流式資料​</b></p>
                                         <span class="ms-auto"><p className='contentfont'>用於處理連續的即時資料流。​</p></span>
                                     </li>
