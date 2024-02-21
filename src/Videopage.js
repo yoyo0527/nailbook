@@ -2,13 +2,13 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
 import scorepic from './assets/img/score.png'
+import naillogo from './assets/img/naillogo.png';
 
 export function VideoPage() {
     const navigate = useNavigate();
     const [result, setResult] = useState(null);
-    const [q, setQ] = useState(0);    
+    const [q, setQ] = useState(false);    
     const [score,setScore] = useState(0);
-    const [home,setHome] = useState(false);
 
     useEffect(() => {
         switch (q) {
@@ -83,6 +83,10 @@ export function VideoPage() {
     function handleskillpage() {
         navigate('/nailbook/skill');
     }
+    
+    function handletest2() {
+        setQ(0);
+    }
 
     function handleAns(option) {
         return () => {
@@ -156,25 +160,24 @@ export function VideoPage() {
     
     return (
         <div>
-            <header>
-                <h1 className="site-heading text-center text-faded d-none d-lg-block">
-                    <span className="site-heading-upper text-primary mb-3">真甲難辨</span>
-                    <span className="site-heading-lower">Nail Disease</span>
-                </h1>
-            </header>
             {/* <!-- Navigation--> */}
             <nav className="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
                 <div className="container">
+                    <img className="nail-logo img-fluid mb-3 mb-lg-0 rounded" src={naillogo} alt="..." />
                     <a className="navbar-brand text-uppercase fw-bold d-lg-none" onClick={handleHome}>Nail Identification</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto">
-                            <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleHome}>首頁</a></li>
+                        <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleHome}>首頁</a></li>
+                            <hr/>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleAbout}>組員介紹</a></li>
+                            <hr/>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleAbout}>目的</a></li>
+                            <hr/>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleDetect}>辨識的疾病</a></li>
-
+                            <hr/>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleskillpage}>運用技術</a></li>
+                            <hr/>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handlevideopage}>觀看影片與測驗</a></li>
                         </ul>
                     </div>
@@ -192,25 +195,27 @@ export function VideoPage() {
                             </div>
                             <div className="col-xl-9 col-lg-10 mx-auto">
                                 <div className="bg-faded2 rounded p-2">
-                                    <h1>測驗</h1>
+                                <a href="#" onClick={handletest2}><h1>後測</h1></a>
                                 </div>
-                                <div className="bg-faded3 rounded p-2">
-                                    <h3>{result && result.ques}</h3>
-                                </div>
-                                <div>
-                                    <div className="bg-faded-ans rounded p-1">
-                                        <p className="contentfont mb-0" onClick={handleAns('a')}>(A) {result && result.a}</p>
+                                {result && (
+                                    <div className="bg-faded3 rounded p-2">
+                                        <h3>{result.ques}</h3>
+                                    
+                                        <div className="bg-faded-ans rounded p-1">
+                                            <p className="contentfont mb-0" onClick={handleAns('a')}>(A) {result.a}</p>
+                                        </div>
+                                        <div className="bg-faded-ans rounded p-1">
+                                            <p className="contentfont mb-0" onClick={handleAns('b')}>(B) {result.b}</p>
+                                        </div>
+                                        <div className="bg-faded-ans rounded p-1">
+                                            <p className="contentfont mb-0" onClick={handleAns('c')}>(C) {result.c}</p>
+                                        </div>
+                                        <div className="bg-faded-ans rounded p-1">
+                                            <p className="contentfont mb-0" onClick={handleAns('d')}>(D) {result.d}</p>
+                                        </div>
+                                    
                                     </div>
-                                    <div className="bg-faded-ans rounded p-1">
-                                        <p className="contentfont mb-0" onClick={handleAns('b')}>(B) {result && result.b}</p>
-                                    </div>
-                                    <div className="bg-faded-ans rounded p-1">
-                                        <p className="contentfont mb-0" onClick={handleAns('c')}>(C) {result && result.c}</p>
-                                    </div>
-                                    <div className="bg-faded-ans rounded p-1">
-                                        <p className="contentfont mb-0" onClick={handleAns('d')}>(D) {result && result.d}</p>
-                                    </div>
-                                </div>
+                                )}
                             </div>                        
                         </div>
                     </div>

@@ -4,6 +4,7 @@ import detect from './assets/img/detect.jpg';
 import detect2 from './assets/img/detect2.jpg';
 import detect3 from './assets/img/detect3.png';
 import './App.css';
+import naillogo from './assets/img/naillogo.png';
 
 export function SkillPage() {
     const navigate = useNavigate();
@@ -30,25 +31,24 @@ export function SkillPage() {
 
     return (
         <div>
-            <header>
-                <h1 className="site-heading text-center text-faded d-none d-lg-block">
-                    <span className="site-heading-upper text-primary mb-3">真甲難辨</span>
-                    <span className="site-heading-lower">Nail Disease</span>
-                </h1>
-            </header>
             {/* <!-- Navigation--> */}
             <nav className="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
                 <div className="container">
+                    <img className="nail-logo img-fluid mb-3 mb-lg-0 rounded" src={naillogo} alt="..." />
                     <a className="navbar-brand text-uppercase fw-bold d-lg-none" onClick={handleHome}>Nail Identification</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto">
-                            <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleHome}>首頁</a></li>
+                        <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleHome}>首頁</a></li>
+                            <hr/>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleAbout}>組員介紹</a></li>
+                            <hr/>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleAbout}>目的</a></li>
+                            <hr/>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleDetect}>辨識的疾病</a></li>
-
+                            <hr/>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleskillpage}>運用技術</a></li>
+                            <hr/>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handlevideopage}>觀看影片與測驗</a></li>
                         </ul>
                     </div>

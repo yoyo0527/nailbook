@@ -12,7 +12,7 @@ import blackline2 from './assets/img/blackline2.png';
 import blackline3 from './assets/img/blackline3.webp';
 import nailbroken from './assets/img/nailbroken.jpg';
 import nailbroken2 from './assets/img/nailbroken2.jpg';
-
+import naillogo from './assets/img/naillogo.png';
 import './App.css';
 
 export function DiseasePage() {
@@ -40,25 +40,24 @@ export function DiseasePage() {
 
     return (
         <div>
-            <header>
-                <h1 className="site-heading text-center text-faded d-none d-lg-block">
-                    <span className="site-heading-upper text-primary mb-3">真甲難辨</span>
-                    <span className="site-heading-lower">Nail Disease</span>
-                </h1>
-            </header>
             {/* <!-- Navigation--> */}
             <nav className="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
                 <div className="container">
+                    <img className="nail-logo img-fluid mb-3 mb-lg-0 rounded" src={naillogo} alt="..." />
                     <a className="navbar-brand text-uppercase fw-bold d-lg-none" onClick={handleHome}>Nail Identification</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto">
-                            <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleHome}>首頁</a></li>
+                        <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleHome}>首頁</a></li>
+                            <hr/>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleAbout}>組員介紹</a></li>
+                            <hr/>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleAbout}>目的</a></li>
+                            <hr/>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleDetect}>辨識的疾病</a></li>
-
+                            <hr/>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handleskillpage}>運用技術</a></li>
+                            <hr/>
                             <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" onClick={handlevideopage}>觀看影片與測驗</a></li>
                         </ul>
                     </div>
@@ -70,7 +69,7 @@ export function DiseasePage() {
                 <div className="container">
                     <div className="product-item">
                         <div className="product-item-title d-flex">
-                            <div className="bg-faded2 p-5 d-flex ms-auto rounded">
+                            <div className="bg-faded2 p-5 d-flex me-auto rounded">
                                 <h2 className="section-heading mb-0">
                                     <span className="section-heading-upper">指甲疾病</span>
                                     <span className="section-heading-lower">灰指甲</span>
@@ -78,7 +77,7 @@ export function DiseasePage() {
                             </div>
                         </div>
                         <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={graynail} alt="..." />
-                        <div className="product-item-description d-flex me-auto">
+                        <div className="product-item-description d-flex mx-auto">
                             <div className="bg-faded p-5 rounded">
                                 <p className="contentfont mb-0"><b>正式名稱：</b>甲癬</p>
                                 <p className="contentfont mb-0"><b>別名：</b>臭甲、灰指甲。</p>
@@ -101,7 +100,7 @@ export function DiseasePage() {
                             </div>
                         </div>
                         <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={graynail2} alt="..." />
-                        <div className="product-item-description d-flex ms-auto">
+                        <div className="product-item-description d-flex mx-auto">
                             <div className="bg-faded p-5 rounded"><p className="contentfont mb-0">灰指甲是一種由黴菌感染引起的指甲問題。指甲可能呈現混濁、黯淡的顏色，而非僅限於灰色。正常指甲應呈現粉紅肉色，具光澤和彈性。灰指甲可能表現為指甲變硬、變厚、易碎、形變，有時呈現黃褐、咖啡、灰或綠色。感染使指甲受損，變得越來越厚、硬，可能導致疼痛和走路時頂到鞋子。其他症狀包括指甲碎裂、掉屑，指甲增厚、粗糙，以及指甲變形和甲床分離。​</p></div>
                         </div>
                     </div>
@@ -112,7 +111,7 @@ export function DiseasePage() {
                 <div className="container">
                     <div className="product-item">
                         <div className="product-item-title d-flex">
-                            <div className="bg-faded2 p-5 d-flex ms-auto rounded">
+                            <div className="bg-faded2 p-5 d-flex me-auto rounded">
                                 <h2 className="section-heading mb-0">
                                     <span className="section-heading-lower">灰指甲治療方式​</span>
                                 </h2>
@@ -169,7 +168,7 @@ export function DiseasePage() {
                 <div className="container">
                     <div className="product-item">
                         <div className="product-item-title d-flex">
-                            <div className="bg-faded2 p-5 d-flex ms-auto rounded">
+                            <div className="bg-faded2 p-5 d-flex me-auto rounded">
                                 <h2 className="section-heading mb-0">
                                     <span className="section-heading-upper">指甲疾病</span>
                                     <span className="section-heading-lower">杵狀指</span>
@@ -177,7 +176,7 @@ export function DiseasePage() {
                             </div>
                         </div>
                         <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={clubbingnail} alt="..." />
-                        <div className="product-item-description d-flex me-auto">
+                        <div className="product-item-description d-flex mx-auto">
                             <div className="bg-faded p-5 rounded">
                                 <p className="contentfont mb-0">杵狀指本身並非疾病，而是一種症狀。杵狀指會讓末端指節鬆軟腫大，甲面也明顯下彎，隨後指甲和甲床之間的正常角度消失，看起來就像是棒槌。它不只會發生於手指末端，腳趾末端也同樣可能有此症狀。​</p>
                                 <p className="contentfont mb-0">杵狀指通常雙側發生，雙手指或腳趾都會有此症狀。不過也有單側發生的可能性。</p>
@@ -198,7 +197,7 @@ export function DiseasePage() {
                             </div>
                         </div>
                         <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={clubbingnail2} alt="..." />
-                        <div className="product-item-description d-flex ms-auto">
+                        <div className="product-item-description d-flex mx-auto">
                             <div className="bg-faded p-5 rounded">
                                     <p className="contentfont mb-0">目前醫學上還無法完全確認杵狀指的發生原因，目前主要是認為當心肺相關疾病導致身體缺氧時，會刺激患者的血液中都會有血管內皮生長因子（vascular endothelial growth factor, VEGF）增加。VEGF 是一種血小板衍生因子，會誘使指甲處發生血管增生、水腫、纖維母細胞或成骨細胞增生並進一步造成杵狀指。​</p>
                                     <p className="contentfont mb-0">此外，會造成血小板慢性增加的發炎性腸道疾病也會因為生長因子增加造成杵狀指發生。​​</p>
@@ -212,7 +211,7 @@ export function DiseasePage() {
                 <div className="container">
                     <div className="product-item">
                         <div className="product-item-title d-flex">
-                            <div className="bg-faded2 p-5 d-flex ms-auto rounded">
+                            <div className="bg-faded2 p-5 d-flex me-auto rounded">
                                 <h2 className="section-heading mb-0">
                                     <span className="section-heading-lower">杵狀指的辨別</span>
                                 </h2>
@@ -254,7 +253,7 @@ export function DiseasePage() {
                 <div className="container">
                     <div className="product-item">
                         <div className="product-item-title d-flex">
-                            <div className="bg-faded2 p-5 d-flex ms-auto rounded">
+                            <div className="bg-faded2 p-5 d-flex me-auto rounded">
                                 <h2 className="section-heading mb-0">
                                     <span className="section-heading-upper">指甲疾病</span>
                                     <span className="section-heading-lower">博氏線</span>
@@ -262,7 +261,7 @@ export function DiseasePage() {
                             </div>
                         </div>
                         <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={beaus} alt="..." />
-                        <div className="product-item-description d-flex me-auto">
+                        <div className="product-item-description d-flex mx-auto">
                             <div className="bg-faded p-5 rounded">
                                 <p className="contentfont mb-0">博氏線會有凹痕或凹陷，指甲表面可能變得粗糙或不光滑。</p>
                             </div>
@@ -282,7 +281,7 @@ export function DiseasePage() {
                             </div>
                         </div>
                         <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={beaus2} alt="..." />
-                        <div className="product-item-description d-flex ms-auto">
+                        <div className="product-item-description d-flex mx-auto">
                             <div className="bg-faded p-5 rounded">
                                 <ul>
                                     <li><p className="contentfont mb-0">近期患有重病、承受重大壓力或罹患特定疾病，造成身體營養及能量無法傳送至末端指甲。​</p></li>
@@ -305,14 +304,14 @@ export function DiseasePage() {
                 <div className="container">
                     <div className="product-item">
                         <div className="product-item-title d-flex">
-                            <div className="bg-faded2 p-5 d-flex ms-auto rounded">
+                            <div className="bg-faded2 p-5 d-flex me-auto rounded">
                                 <h2 className="section-heading mb-0">
                                     <span className="section-heading-lower">對照上述4成因，以下有更詳細的解釋：</span>
                                 </h2>
                             </div>
                         </div>
                         <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={beaus} alt="..." />
-                        <div className="product-item-description d-flex me-auto">
+                        <div className="product-item-description d-flex mx-auto">
                             <div className="bg-faded p-5 rounded">
                             <ul>
                                     <li><p className="contentfont mb-0"><b>身體疾病​</b></p></li>
@@ -369,7 +368,7 @@ export function DiseasePage() {
                             </div>
                         </div>
                         <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={blackline} alt="..." />
-                        <div className="product-item-description d-flex ms-auto">
+                        <div className="product-item-description d-flex mx-auto">
                             <div className="bg-faded p-5 rounded">
                                     <p className="contentfont mb-0">指甲上的黑線超過95%為淡灰色、深黑色或淡棕色。指甲有黑線其實並不稀奇，不妨想像成甲床上長了痣，只是在指甲上以黑線的方式呈現。雖然任何年齡層都有可能在手指或腳趾出現，不過除了黑色素細胞活化外，<b>以下情況也可能會讓你的指甲長出黑線：</b></p>
                                 <ul>
@@ -397,14 +396,14 @@ export function DiseasePage() {
                 <div className="container">
                     <div className="product-item">
                         <div className="product-item-title d-flex">
-                            <div className="bg-faded2 p-5 d-flex ms-auto rounded">
+                            <div className="bg-faded2 p-5 d-flex me-auto rounded">
                                 <h2 className="section-heading mb-0">
                                     <span className="section-heading-lower">縱向黑甲症​</span>
                                 </h2>
                             </div>
                         </div>
                         <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={blackline2} alt="..." />
-                        <div className="product-item-description d-flex me-auto">
+                        <div className="product-item-description d-flex mx-auto">
                             <div className="bg-faded p-5 rounded">
                                 <p className="contentfont mb-0">雖然指甲長黑線大多屬於良性變化，不過當你發現指甲的黑線<b>符合下列情況時，則需留意是否為罹患黑色素瘤的高風險患者</b>（Melanoma，或稱黑色素細胞癌），建議盡快就醫由醫師進行專業診斷：​</p>
                                 <p className="contentfont mb-0"><b>1.</b>黑線開始往旁邊擴散​</p>
@@ -432,7 +431,7 @@ export function DiseasePage() {
                             </div>
                         </div>
                         <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={blackline3} alt="..." />
-                        <div className="product-item-description d-flex ms-auto">
+                        <div className="product-item-description d-flex mx-auto">
                             <div className="bg-faded p-5 rounded">
                                 <ul>
                                     <li><p className="contentfont mb-0">因<b>多數指甲黑線屬良性</b>，若只是單純黑色素細胞活化，或因口服藥物（四環黴素、化療藥物）、外傷等原因，只要停藥或是待外傷痊癒，過段時間就會自行消失。​</p></li>
@@ -452,7 +451,7 @@ export function DiseasePage() {
                 <div className="container">
                     <div className="product-item">
                         <div className="product-item-title d-flex">
-                            <div className="bg-faded2 p-5 d-flex ms-auto rounded">
+                            <div className="bg-faded2 p-5 d-flex me-auto rounded">
                                 <h2 className="section-heading mb-0">
                                     <span className="section-heading-upper">指甲疾病</span>
 
@@ -461,7 +460,7 @@ export function DiseasePage() {
                             </div>
                         </div>
                         <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={nailbroken} alt="..." />
-                        <div className="product-item-description d-flex me-auto">
+                        <div className="product-item-description d-flex mx-auto">
                             <div className="bg-faded p-5 rounded">
                                 <p className="contentfont mb-0">甲床剝離就是指甲板和下面的甲床黏不牢分開了，分開之後中間會有空氣，光線散射的關係所以常常呈現白或灰白的顏色，嚴重一點的話還會有指甲半掀半合搖搖欲墜的感覺。​​</p>
                                 <p className="contentfont mb-0">有時候分開的空隙裡面仔細看揮看到一層像粉屑的東西，那是甲床受傷之後產生皮膚化的現象（甲床脫皮）。​</p>
@@ -516,14 +515,14 @@ export function DiseasePage() {
                 <div className="container">
                     <div className="product-item">
                         <div className="product-item-title d-flex">
-                            <div className="bg-faded2 p-5 d-flex ms-auto rounded">
+                            <div className="bg-faded2 p-5 d-flex me-auto rounded">
                                 <h2 className="section-heading mb-0">
                                     <span className="section-heading-lower">治療指甲剝離</span>
                                 </h2>
                             </div>
                         </div>
                         <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={nailbroken2} alt="..." />
-                        <div className="product-item-description d-flex me-auto">
+                        <div className="product-item-description d-flex mx-auto">
                             <div className="bg-faded p-5 rounded">
                                 <p className="contentfont mb-0">治療甲床剝離的關鍵是找出引起的原因，避免接觸刺激物質，如水或化學品。根據不同原因，可以使用塗抹類固醇、抗黴菌藥物，或其他相應的治療方法。</p>
                                 <p className="contentfont mb-0">同時，可以嘗試使用保護性物質，如凡士林。嚴重剝離時，有時需要拔除指甲促使重新生長。在治療過程中，醫生的觀點和處方可能有所不同，有些情況下可能會考慮使用抗黴菌藥物，但效果因人而異。</p>

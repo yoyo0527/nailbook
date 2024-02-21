@@ -7,7 +7,7 @@
 }
 
 .contentfont {
-  font-size: 125%;
+  font-size: 150%;
 }
 
 .img-fluid-set {
@@ -44,6 +44,14 @@
   height: 500px;
 }
 
-hr{
+hr {
   border: 2px solid rgb(186, 119, 71);
+}
+
+.intro-text {
+  background-color: rgb(193, 154, 103);
+}
+
+.nail-logo {
+  width: 10%;
 }
