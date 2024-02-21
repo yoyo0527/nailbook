@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/nailbook/static/css/main.b8d43339.css",
-    "main.js": "/nailbook/static/js/main.669230f4.js",
+    "main.css": "/nailbook/static/css/main.fcc2deee.css",
+    "main.js": "/nailbook/static/js/main.ee99a02c.js",
     "static/js/592.657f17f4.chunk.js": "/nailbook/static/js/592.657f17f4.chunk.js",
+    "static/media/bg.png": "/nailbook/static/media/bg.231e7bdf6d7b0b2f22c4.png",
     "static/media/purpose.png": "/nailbook/static/media/purpose.f672971dee1f95cfcfa7.png",
     "static/media/intro.png": "/nailbook/static/media/intro.49298f2e5cd1a809559b.png",
     "static/media/beaus2.jpg": "/nailbook/static/media/beaus2.ec11a39ce0431b1f7a24.jpg",
-    "static/media/bg.png": "/nailbook/static/media/bg.1c4ec58278fc122e65ea.png",
     "static/media/blackline2.png": "/nailbook/static/media/blackline2.48467e91b07584b29af8.png",
     "static/media/graynail2.gif": "/nailbook/static/media/graynail2.a0ef1e89d67b1cf870ac.gif",
     "static/media/score.png": "/nailbook/static/media/score.a35ec9561d3c60ffd599.png",
     "static/media/blackline3.webp": "/nailbook/static/media/blackline3.60bc182bcaf43236ae16.webp",
     "static/media/blackline.jpg": "/nailbook/static/media/blackline.df5af403140310a210b3.jpg",
+    "static/media/naillogo.png": "/nailbook/static/media/naillogo.8c5d01a62e59d9a18727.png",
     "static/media/nailbroken2.jpg": "/nailbook/static/media/nailbroken2.8c20abc550b1a9278238.jpg",
     "static/media/nailbroken.jpg": "/nailbook/static/media/nailbroken.8b66f887ba77441e4b8f.jpg",
     "static/media/beaus.jpg": "/nailbook/static/media/beaus.e5299f262f20c818787c.jpg",
@@ -24,12 +25,12 @@
     "static/media/detect2.jpg": "/nailbook/static/media/detect2.c5a2762b08f3e6164673.jpg",
     "static/media/clubbing.jpg": "/nailbook/static/media/clubbing.dcb091ef2e3e11587cfc.jpg",
     "index.html": "/nailbook/index.html",
-    "main.b8d43339.css.map": "/nailbook/static/css/main.b8d43339.css.map",
-    "main.669230f4.js.map": "/nailbook/static/js/main.669230f4.js.map",
+    "main.fcc2deee.css.map": "/nailbook/static/css/main.fcc2deee.css.map",
+    "main.ee99a02c.js.map": "/nailbook/static/js/main.ee99a02c.js.map",
     "592.657f17f4.chunk.js.map": "/nailbook/static/js/592.657f17f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8d43339.css",
-    "static/js/main.669230f4.js"
+    "static/css/main.fcc2deee.css",
+    "static/js/main.ee99a02c.js"
   ]
 }
