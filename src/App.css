@@ -1,5 +1,6 @@
 .bg-faded2 {
   background-color: rgb(172, 99, 48);
+  margin-bottom: 2%;
 }
 
 .bg-faded3 {
@@ -24,7 +25,7 @@
 }
 
 .img-detect {
-  width: 80%;
+  width: 75%;
 }
 
 .bg-faded-home {

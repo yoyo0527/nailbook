@@ -71,7 +71,7 @@ export function DiseasePage() {
                         <div className="product-item-title d-flex">
                             <div className="bg-faded2 p-5 d-flex me-auto rounded">
                                 <h2 className="section-heading mb-0">
-                                    <span className="section-heading-upper">指甲疾病</span>
+                                    
                                     <span className="section-heading-lower">灰指甲</span>
                                 </h2>
                             </div>
@@ -170,7 +170,7 @@ export function DiseasePage() {
                         <div className="product-item-title d-flex">
                             <div className="bg-faded2 p-5 d-flex me-auto rounded">
                                 <h2 className="section-heading mb-0">
-                                    <span className="section-heading-upper">指甲疾病</span>
+                                    
                                     <span className="section-heading-lower">杵狀指</span>
                                 </h2>
                             </div>
@@ -255,7 +255,7 @@ export function DiseasePage() {
                         <div className="product-item-title d-flex">
                             <div className="bg-faded2 p-5 d-flex me-auto rounded">
                                 <h2 className="section-heading mb-0">
-                                    <span className="section-heading-upper">指甲疾病</span>
+                                    
                                     <span className="section-heading-lower">博氏線</span>
                                 </h2>
                             </div>
@@ -362,7 +362,7 @@ export function DiseasePage() {
                         <div className="product-item-title d-flex">
                             <div className="bg-faded2 p-5 d-flex me-auto rounded">
                                 <h2 className="section-heading mb-0">
-                                    <span className="section-heading-upper">指甲疾病</span>
+                                    
                                     <span className="section-heading-lower">縱向黑甲症</span>
                                 </h2>
                             </div>
@@ -453,8 +453,6 @@ export function DiseasePage() {
                         <div className="product-item-title d-flex">
                             <div className="bg-faded2 p-5 d-flex me-auto rounded">
                                 <h2 className="section-heading mb-0">
-                                    <span className="section-heading-upper">指甲疾病</span>
-
                                     <span className="section-heading-lower">指甲剝離​</span>
                                 </h2>
                             </div>

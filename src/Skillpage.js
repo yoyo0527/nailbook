@@ -102,18 +102,18 @@ export function SkillPage() {
                                     <span className="section-heading-lower text-center"><b>影像辨識的訓練模型</b></span>
                                 </h2>
                                 <div className='row-xl-9'>
-                                <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                                    <li class="d-flex">
-                                        <p className='contentfont' style={{marginRight: '10%', whiteSpace: 'nowrap'}}><b>監督式學習​</b></p>
-                                        <span class="ms-auto"><p className='contentfont' style={{whiteSpace: 'nowrap'}}>使用標記的資料進行訓練。</p></span>
+                                <ul class="list-unstyled list-hours mb-5 text-left mx-auto" style={{ display: 'flex', flexDirection: 'column' }}>
+                                    <li class="d-flex" style={{ display: 'flex', alignItems: 'flex-start' }}>
+                                        <p className='contentfont' style={{ marginRight: '10%', whiteSpace: 'nowrap' }}><b>監督式學習​　</b></p>
+                                        <span class="ms-auto"><p className='contentfont'>使用標記的資料進行訓練。</p></span>
                                     </li>
-                                    <li class="d-flex">
-                                        <p className='contentfont' style={{marginRight: '10%', whiteSpace: 'nowrap'}}><b>非監督式學習</b></p>
-                                        <span class="ms-auto"><p className='contentfont' style={{whiteSpace: 'nowrap'}}>​根據資料的內在結構進行學習。​</p></span>
+                                    <li class="d-flex" style={{ display: 'flex', alignItems: 'flex-start' }}>
+                                        <p className='contentfont' style={{ marginRight: '10%', whiteSpace: 'nowrap' }}><b>非監督式學習</b></p>
+                                        <span class="ms-auto"><p className='contentfont'>​根據資料的內在結構進行學習。​</p></span>
                                     </li>
-                                    <li class="d-flex">
-                                        <p className='contentfont' style={{marginRight: '10%', whiteSpace: 'nowrap'}}><b>強化學習​</b></p>
-                                        <span class="ms-auto"><p className='contentfont' style={{whiteSpace: 'nowrap'}}>通過與環境的互動來學習。​</p></span>
+                                    <li class="d-flex" style={{ display: 'flex', alignItems: 'flex-start' }}>
+                                        <p className='contentfont' style={{ marginRight: '10%', whiteSpace: 'nowrap' }}><b>強化學習　　​</b></p>
+                                        <span class="ms-auto"><p className='contentfont'>通過與環境的互動來學習。​</p></span>
                                     </li>
                                 </ul>
                                 </div>
@@ -124,16 +124,16 @@ export function SkillPage() {
                                 <div className='row-xl-9'>
                                 <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
                                     <li class="d-flex">
-                                        <p className='contentfont' style={{marginRight: '10%', whiteSpace: 'nowrap'}}><b>結構化資料</b></p>
-                                        <span class="ms-auto"><p className='contentfont' style={{whiteSpace: 'nowrap'}}>包括數字矩陣和向量形式的資料。​</p></span>
+                                        <p className='contentfont' style={{marginRight: '10%', whiteSpace: 'nowrap'}}><b>結構化資料　</b></p>
+                                        <span class="ms-auto"><p className='contentfont'>包括數字矩陣和向量形式的資料。​</p></span>
                                     </li>
                                     <li class="d-flex">
                                         <p className='contentfont' style={{marginRight: '10%', whiteSpace: 'nowrap'}}><b>非結構化資料​</b></p>
-                                        <span class="ms-auto"><p className='contentfont' style={{whiteSpace: 'nowrap'}}>例如圖像和音訊等。​</p></span>
+                                        <span class="ms-auto"><p className='contentfont'>例如圖像和音訊等。​</p></span>
                                     </li>
                                     <li class="d-flex">
                                         <p className='contentfont' style={{marginRight: '10%',whiteSpace: 'nowrap'}}><b>即時流式資料​</b></p>
-                                        <span class="ms-auto"><p className='contentfont' style={{whiteSpace: 'nowrap'}}>用於處理連續的即時資料流。​</p></span>
+                                        <span class="ms-auto"><p className='contentfont'>用於處理連續的即時資料流。​</p></span>
                                     </li>
                                 </ul>
                                 </div>
