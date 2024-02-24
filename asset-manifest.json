@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/nailbook/static/css/main.19153a7f.css",
-    "main.js": "/nailbook/static/js/main.21ba938f.js",
+    "main.css": "/nailbook/static/css/main.b3e5160b.css",
+    "main.js": "/nailbook/static/js/main.e8e4b7b2.js",
     "static/js/592.657f17f4.chunk.js": "/nailbook/static/js/592.657f17f4.chunk.js",
     "static/media/bg.png": "/nailbook/static/media/bg.231e7bdf6d7b0b2f22c4.png",
     "static/media/purpose.png": "/nailbook/static/media/purpose.f672971dee1f95cfcfa7.png",
     "static/media/intro.png": "/nailbook/static/media/intro.49298f2e5cd1a809559b.png",
+    "static/media/whitedot6.png": "/nailbook/static/media/whitedot6.b6c572faf05126dad34c.png",
     "static/media/beaus2.jpg": "/nailbook/static/media/beaus2.ec11a39ce0431b1f7a24.jpg",
+    "static/media/whitedot7.jpg": "/nailbook/static/media/whitedot7.8787bd8e7e9bc5208332.jpg",
+    "static/media/whitedot2.jpeg": "/nailbook/static/media/whitedot2.27cb574a1145c97d4ba8.jpeg",
+    "static/media/whitedot4.jpeg": "/nailbook/static/media/whitedot4.877a8b53055e5c14398d.jpeg",
     "static/media/blackline2.png": "/nailbook/static/media/blackline2.48467e91b07584b29af8.png",
     "static/media/graynail2.gif": "/nailbook/static/media/graynail2.a0ef1e89d67b1cf870ac.gif",
+    "static/media/whitedot.jpeg": "/nailbook/static/media/whitedot.b131047e66f4a699123d.jpeg",
     "static/media/score.png": "/nailbook/static/media/score.a35ec9561d3c60ffd599.png",
     "static/media/blackline3.webp": "/nailbook/static/media/blackline3.60bc182bcaf43236ae16.webp",
+    "static/media/whitedot5.jpg": "/nailbook/static/media/whitedot5.e4f5b5d2d3185ed241c2.jpg",
     "static/media/blackline.jpg": "/nailbook/static/media/blackline.df5af403140310a210b3.jpg",
+    "static/media/whitedot3.jpg": "/nailbook/static/media/whitedot3.aeda22bb0ba51d6eb60e.jpg",
     "static/media/naillogo.png": "/nailbook/static/media/naillogo.8c5d01a62e59d9a18727.png",
     "static/media/nailbroken2.jpg": "/nailbook/static/media/nailbroken2.8c20abc550b1a9278238.jpg",
     "static/media/nailbroken.jpg": "/nailbook/static/media/nailbroken.8b66f887ba77441e4b8f.jpg",
@@ -25,12 +32,12 @@
     "static/media/detect2.jpg": "/nailbook/static/media/detect2.c5a2762b08f3e6164673.jpg",
     "static/media/clubbing.jpg": "/nailbook/static/media/clubbing.dcb091ef2e3e11587cfc.jpg",
     "index.html": "/nailbook/index.html",
-    "main.19153a7f.css.map": "/nailbook/static/css/main.19153a7f.css.map",
-    "main.21ba938f.js.map": "/nailbook/static/js/main.21ba938f.js.map",
+    "main.b3e5160b.css.map": "/nailbook/static/css/main.b3e5160b.css.map",
+    "main.e8e4b7b2.js.map": "/nailbook/static/js/main.e8e4b7b2.js.map",
     "592.657f17f4.chunk.js.map": "/nailbook/static/js/592.657f17f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19153a7f.css",
-    "static/js/main.21ba938f.js"
+    "static/css/main.b3e5160b.css",
+    "static/js/main.e8e4b7b2.js"
   ]
 }
