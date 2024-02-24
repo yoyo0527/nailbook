@@ -13,6 +13,14 @@ import blackline3 from './assets/img/blackline3.webp';
 import nailbroken from './assets/img/nailbroken.jpg';
 import nailbroken2 from './assets/img/nailbroken2.jpg';
 import naillogo from './assets/img/naillogo.png';
+import whitedot from './assets/img/whitedot.jpeg';
+import whitedot2 from './assets/img/whitedot2.jpeg';
+import whitedot3 from './assets/img/whitedot3.jpg';
+import whitedot4 from './assets/img/whitedot4.jpeg';
+import whitedot5 from './assets/img/whitedot5.jpg';
+import whitedot6 from './assets/img/whitedot6.png';
+import whitedot7 from './assets/img/whitedot7.jpg';
+
 import './App.css';
 
 export function DiseasePage() {
@@ -525,6 +533,138 @@ export function DiseasePage() {
                                 <p className="contentfont mb-0">治療甲床剝離的關鍵是找出引起的原因，避免接觸刺激物質，如水或化學品。根據不同原因，可以使用塗抹類固醇、抗黴菌藥物，或其他相應的治療方法。</p>
                                 <p className="contentfont mb-0">同時，可以嘗試使用保護性物質，如凡士林。嚴重剝離時，有時需要拔除指甲促使重新生長。在治療過程中，醫生的觀點和處方可能有所不同，有些情況下可能會考慮使用抗黴菌藥物，但效果因人而異。</p>
                                 <p className="contentfont mb-0">也有報告指出，使用抗生素對不明原因的甲床剝離有改善作用，可能與念珠菌相關。​</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* 白甲 */}
+            <section className="page-section">
+                <div className="container">
+                    <div className="product-item">
+                        <div className="product-item-title d-flex">
+                            <div className="bg-faded2 p-5 d-flex me-auto rounded">
+                                <h2 className="section-heading mb-0">
+                                    <span className="section-heading-lower">白甲</span>
+                                </h2>
+                            </div>
+                        </div>
+                        <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={whitedot} alt="..." />
+                        <div className="product-item-description d-flex mx-auto">
+                            <div className="bg-faded p-5 rounded">
+                                <p className="contentfont mb-0">很多人都有過指甲長白點的經驗，本來粉紅色的指甲突然出現了一塊或點狀、輪廓不均勻的白色，有些會隨著指甲生長不知不覺間不見，有些則會持續一段時間。指甲有白點在醫學上的正式名稱稱為「點狀白甲症」。</p>
+                                <p className="contentfont mb-0"><b>依照白斑的形狀可以分成：​</b></p>
+                                <ul>
+                                    <li><p className="contentfont mb-0">點狀、不規則的「點狀白甲」</p></li>
+                                    <li><p className="contentfont mb-0">1～2mm寬、成直線狀分布的「線狀白甲」​</p></li>
+                                    <li><p className="contentfont mb-0">整片指甲泛白的「泛發性白甲」​</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="page-section">
+                <div className="container">
+                    <div className="product-item">
+                        <div className="product-item-title d-flex">
+                            <div className="bg-faded2 p-5 d-flex me-auto rounded">
+                                <h2 className="section-heading mb-0">
+                                    <span className="section-heading-lower">指甲有白點可能原因​</span>
+                                </h2>
+                            </div>
+                        </div>
+                        <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={whitedot2} alt="..." />
+                        <div className="product-item-description d-flex mx-auto">
+                            <div className="bg-faded p-5 rounded">
+                                <p className="contentfont mb-0"><b>1.輕微外傷或空氣進入​</b></p>
+                                <p className="contentfont mb-0">最常見的指甲白斑形成原因，是由輕微外傷或空氣進入指甲的縫隙形成的。所謂的甲床是指指尖被指甲覆蓋的部分，而指甲上粉紅色的部分則稱為甲板，若是指甲的甲板在生長的過程中因為碰撞、空氣進入而發育不全，就會產生白點。這類型的白點會隨著指甲長長而漸漸被外推消失，除非有持續疼痛或傷口，否則不需要特別擔心。​​</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="page-section">
+                <div className="container">
+                    <div className="product-item">
+                        <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={whitedot3} alt="..." />
+                        <div className="product-item-description d-flex mx-auto">
+                            <div className="bg-faded p-5 rounded">
+                                <p className="contentfont mb-0"><b>2.缺乏特定營養素</b></p>
+                                <p className="contentfont mb-0">突然出現指甲白斑可能是某些礦物質、維生素缺乏所引起的，最常見的是鋅和鈣，但其實發生這種情況的機率相對低。比起缺乏特定的礦物質、維生素，一般的飲食不均衡常會造成必需的脂肪酸及蛋白質缺乏，進而影響指甲生長，此時的指甲會變得脆弱、甲板變薄，只要輕輕受到外傷碰撞，就容易形成明顯的指甲白斑。​</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="page-section">
+                <div className="container">
+                    <div className="product-item">
+                        <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={whitedot4} alt="..." />
+                        <div className="product-item-description d-flex mx-auto">
+                            <div className="bg-faded p-5 rounded">
+                                <p className="contentfont mb-0"><b>3.疾病的徵兆​</b></p>
+                                <p className="contentfont mb-0">指甲白斑通常是因輕微碰撞或啃咬指甲等行為導致，不需過度擔心，留意後續復原狀況即可。但若多指同時出現白斑、白線或整片泛白，可能是心臟病、腎衰竭、皮膚疾病、真菌感染或肺炎的徵兆。建議若發現異常的指甲白斑，尋求皮膚科醫生診斷，確認原因以進一步治療。​</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="page-section">
+                <div className="container">
+                    <div className="product-item">
+                        <div className="product-item-title d-flex">
+                            <div className="bg-faded2 p-5 d-flex me-auto rounded">
+                                <h2 className="section-heading mb-0">
+                                    <span className="section-heading-lower">避免產生指甲白斑方法</span>
+                                </h2>
+                            </div>
+                        </div>
+                        <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={whitedot5} alt="..." />
+                        <div className="product-item-description d-flex mx-auto">
+                            <div className="bg-faded p-5 rounded">
+                                <p className="contentfont mb-0"><b>1.戒掉「咬指甲」的習慣，並定期修剪指甲​</b></p>
+                                <p className="contentfont mb-0">咬指甲不僅不雅觀，還可能將手上的細菌吃進肚子裡，對健康不利。同時，啃咬指甲會讓指甲邊緣變得粗糙不規則，容易造成指甲翻起或受傷。此外，咬指甲的過程也可能導致指甲白斑的形成。因此，還是戒掉咬指甲的習慣吧！適當修剪指甲可以避免外翻，長度適中的指甲也不容易在日常活動中受到碰撞，是一個很好的習慣。​</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="page-section">
+                <div className="container">
+                    <div className="product-item">
+                        <div className="product-item-title d-flex">
+                        </div>
+                        <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={whitedot6} alt="..." />
+                        <div className="product-item-description d-flex mx-auto">
+                            <div className="bg-faded p-5 rounded">
+                                <p className="contentfont mb-0"><b>2.攝取充分的優質蛋白質​</b></p>
+                                <p className="contentfont mb-0">因為維生素的缺乏導致指甲有白點的情況並不多見，但人體製造指甲的角蛋白（主要的指甲蛋白）來源主要來自於蛋白質的攝取，像是魚肉、堅果、豆類、蛋等富含優質蛋白質的食物，有助於促進角蛋白增生，讓指甲更健康。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="page-section">
+                <div className="container">
+                    <div className="product-item">
+                        <div className="product-item-title d-flex">
+                        </div>
+                        <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={whitedot7} alt="..." />
+                        <div className="product-item-description d-flex mx-auto">
+                            <div className="bg-faded p-5 rounded">
+                                <p className="contentfont mb-0"><b>3.避免接觸刺激物品</b></p>
+                                <p className="contentfont mb-0">因為維生素的缺乏導致指甲有白點的情況並不多見，但人體製造指甲的角蛋白（主要的指甲蛋白）來源主要來自於蛋白質的攝取，像是魚肉、堅果、豆類、蛋等富含優質蛋白質的食物，有助於促進角蛋白增生，讓指甲更健康。</p>
                             </div>
                         </div>
                     </div>
