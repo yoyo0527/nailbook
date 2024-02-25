@@ -67,6 +67,7 @@ export function HomePage() {
                     </div>
                 </div>
             </section>
+            
             <footer className="footer text-faded text-center py-5">
                 <div className="container"><p className="m-0 small">Copyright &copy; Your Website 2024</p></div>
             </footer>

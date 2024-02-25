@@ -5,6 +5,7 @@ import detect2 from './assets/img/detect2.jpg';
 import detect3 from './assets/img/detect3.png';
 import './App.css';
 import naillogo from './assets/img/naillogo.png';
+import detect4 from './assets/img/detect4.png';
 
 export function SkillPage() {
     const navigate = useNavigate();
@@ -102,42 +103,68 @@ export function SkillPage() {
                                     <span className="section-heading-lower text-center"><b>影像辨識的訓練模型</b></span>
                                 </h2>
                                 <div className='row-xl-9'>
-                                <ul class="list-unstyled list-hours mb-5 text-left mx-auto" style={{ display: 'flex', flexDirection: 'column' }}>
-                                    <li class="d-flex" style={{ display: 'flex', alignItems: 'flex-start' }}>
-                                        <p className='contentfont' style={{ marginRight: '10%', whiteSpace: 'nowrap' }}><b>監督式學習​　</b></p>
-                                        <span class="ms-auto"><p className='contentfont'>使用標記的資料進行訓練。</p></span>
-                                    </li>
-                                    <li class="d-flex" style={{ display: 'flex', alignItems: 'flex-start' }}>
-                                        <p className='contentfont' style={{ marginRight: '10%', whiteSpace: 'nowrap' }}><b>非監督式學習</b></p>
-                                        <span class="ms-auto"><p className='contentfont'>​根據資料的內在結構進行學習。​</p></span>
-                                    </li>
-                                    <li class="d-flex" style={{ display: 'flex', alignItems: 'flex-start' }}>
-                                        <p className='contentfont' style={{ marginRight: '10%', whiteSpace: 'nowrap' }}><b>強化學習　　​</b></p>
-                                        <span class="ms-auto"><p className='contentfont'>通過與環境的互動來學習。​</p></span>
-                                    </li>
-                                </ul>
+                                    <ul class="list-unstyled list-hours mb-5 text-left mx-auto" style={{ display: 'flex', flexDirection: 'column' }}>
+                                        <li class="d-flex" style={{ display: 'flex', alignItems: 'flex-start' }}>
+                                            <p className='contentfont' style={{ marginRight: '10%', whiteSpace: 'nowrap' }}><b>監督式學習​　</b></p>
+                                            <span className="ms-auto"><p className='contentfont'>使用標記的資料進行訓練。</p></span>
+                                        </li>
+                                        <li class="d-flex" style={{ display: 'flex', alignItems: 'flex-start' }}>
+                                            <p className='contentfont' style={{ marginRight: '10%', whiteSpace: 'nowrap' }}><b>非監督式學習</b></p>
+                                            <span className="ms-auto"><p className='contentfont'>​根據資料的內在結構進行學習。​</p></span>
+                                        </li>
+                                        <li class="d-flex" style={{ display: 'flex', alignItems: 'flex-start' }}>
+                                            <p className='contentfont' style={{ marginRight: '10%', whiteSpace: 'nowrap' }}><b>強化學習　　​</b></p>
+                                            <span className="ms-auto"><p className='contentfont'>通過與環境的互動來學習。​</p></span>
+                                        </li>
+                                    </ul>
                                 </div>
                                 <hr/>
                                 <h2 className="section-heading mb-5">
                                     <span className="section-heading-lower text-center"><b>影像辨識所需的資料類型</b></span>
                                 </h2>
                                 <div className='row-xl-9'>
-                                <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                                    <li class="d-flex">
-                                        <p className='contentfont' style={{marginRight: '10%', whiteSpace: 'nowrap'}}><b>結構化資料　</b></p>
-                                        <span class="ms-auto"><p className='contentfont'>包括數字矩陣和向量形式的資料。​</p></span>
-                                    </li>
-                                    <li class="d-flex">
-                                        <p className='contentfont' style={{marginRight: '10%', whiteSpace: 'nowrap'}}><b>非結構化資料​</b></p>
-                                        <span class="ms-auto"><p className='contentfont'>例如圖像和音訊等。​</p></span>
-                                    </li>
-                                    <li class="d-flex">
-                                        <p className='contentfont' style={{marginRight: '10%',whiteSpace: 'nowrap'}}><b>即時流式資料​</b></p>
-                                        <span class="ms-auto"><p className='contentfont'>用於處理連續的即時資料流。​</p></span>
-                                    </li>
-                                </ul>
+                                    <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                                        <li class="d-flex">
+                                            <p className='contentfont' style={{marginRight: '10%', whiteSpace: 'nowrap'}}><b>結構化資料　</b></p>
+                                            <span className="ms-auto"><p className='contentfont'>包括數字矩陣和向量形式的資料。​</p></span>
+                                        </li>
+                                        <li class="d-flex">
+                                            <p className='contentfont' style={{marginRight: '10%', whiteSpace: 'nowrap'}}><b>非結構化資料​</b></p>
+                                            <span className="ms-auto"><p className='contentfont'>例如圖像和音訊等。​</p></span>
+                                        </li>
+                                        <li class="d-flex">
+                                            <p className='contentfont' style={{marginRight: '10%',whiteSpace: 'nowrap'}}><b>即時流式資料​</b></p>
+                                            <span className="ms-auto"><p className='contentfont'>用於處理連續的即時資料流。​</p></span>
+                                        </li>
+                                    </ul>
                                 </div>
-                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="page-section">
+                <div className="container">
+                    <div className="product-item">
+                        <div className="product-item-title d-flex">
+                        </div>
+                        <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={detect4} alt="..." />
+                        <div className="product-item-description d-flex mx-auto">
+                            <div className="bg-faded p-5 rounded d-flex flex-row mx-auto" style={{ gap: '10%' }}>
+                                <div className='col'>
+                                    <p className="contentfont text-center"><b>卷積神經網絡（CNN）​</b></p>
+                                    <p className="contentfont">應用廣泛且效果顯著。</p>
+                                </div>
+                                <div className='col'>
+                                    <p className="contentfont text-center"><b>循環神經網絡（RNN）​</b></p>
+                                    <p className="contentfont">用於處理序列數據。</p>
+                                </div>
+                                <div className='col'>
+                                    <p className="contentfont text-center"><b>支持向量機（SVM）</b></p>
+                                    <p className="contentfont">適用於特徵維度較高的資料。</p>
+                                    
+                                </div>
                             </div>
                         </div>
                     </div>

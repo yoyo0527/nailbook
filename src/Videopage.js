@@ -14,11 +14,11 @@ export function VideoPage() {
         switch (q) {
             case 0:
                 setResult({
-                    'ques': '小美利用機器學習技術幫助小帥辨識他患上的指甲疾病。這個過程屬於何種類型的機器學習？',
-                    'a': '監督式學習',
-                    'b': '非監督式學習',
-                    'c': '半監督式學習',
-                    'd': '強化學習',
+                    'ques': '小美在解釋機器學習時提到了哪些學習方式？',
+                    'a': '監督式學習、非監督式學習、半監督式學習、強化學習',
+                    'b': '模仿式學習、隨機學習、實驗性學習、模型學習',
+                    'c': '訓練式學習、規則式學習、探索式學習、評估式學習',
+                    'd': '觀察式學習、分析式學習、預測式學習、反饋式學習',
                 });
                 break;
             case 1:
@@ -238,7 +238,7 @@ export function VideoPage() {
                         setQ(q + 1);
                         setAfterscore(afterscore + 1);
                     } else {
-                        Swal.fire('Mistake', '正確答案為(A)監督式學習', 'error');
+                        Swal.fire('Mistake', '正確答案為(A)監督式學習、非監督式學習、半監督式學習、強化學習', 'error');
                         setQ(q + 1);
                     } 
                     break;
