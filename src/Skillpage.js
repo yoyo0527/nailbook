@@ -169,19 +169,19 @@ export function SkillPage() {
                                 </div> */}
                                 <div className="row">
                                     <div className="col-xl-4">
-                                        <div className='row-xl-2'>
+                                        <div className='row-xl-4'>
                                             <p className='contentfont'><b>卷積神經網絡（CNN）</b></p>
                                             <p className='contentfont'>應用廣泛且效果顯著。</p>
                                         </div>
                                     </div>
                                     <div className="col-xl-4">
-                                        <div className='row-xl-2'>
+                                        <div className='row-xl-4'>
                                             <p className='contentfont'><b>循環神經網絡（RNN）​</b></p>
                                             <p className='contentfont'>用於處理序列數據。</p>
                                         </div>
                                     </div>
                                     <div className="col-xl-4">
-                                        <div className='row-xl-2'>
+                                        <div className='row-xl-4'>
                                             <p className='contentfont'><b>支持向量機（SVM）　</b></p>
                                             <p className='contentfont'>適用於特徵維度較高的資料。</p>
                                         </div>
