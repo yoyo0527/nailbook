@@ -145,7 +145,7 @@ export function SkillPage() {
                 </div>
             </section>
 
-            <section className="page-section">
+            {/* <section className="page-section">
                 <div className="container">
                     <div className="product-item">
                         <div className="product-item-title d-flex">
@@ -169,7 +169,7 @@ export function SkillPage() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section className="page-section cta">
                 <div className="container">
