@@ -6,6 +6,7 @@ import detect3 from './assets/img/detect3.png';
 import './App.css';
 import naillogo from './assets/img/naillogo.png';
 import detect4 from './assets/img/detect4.png';
+import detect5 from './assets/img/detect5.jpg';
 
 export function SkillPage() {
     const navigate = useNavigate();
@@ -165,6 +166,19 @@ export function SkillPage() {
                                     <p className="contentfont">適用於特徵維度較高的資料。</p>
                                     
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="page-section cta">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-xl-9 mx-auto">
+                            <div className="cta-inner bg-faded rounded">
+                                <img className="img-detect img-fluid mb-5 rounded d-flex mx-auto" src={detect5} alt="..." />
+                                <p className="contentfont ms-3">透過攝像頭拍攝照片後，上傳到前端react的網站上，按下辨識的按鈕後，後端的node接收到來自前端的圖像數據，再來執行python腳本來處理指甲圖像並進行辨識，再將python辨識後的結果包裝成json格式交由後端node回傳前端react顯示在螢幕上給使用者了解指甲的狀況。​</p>
                             </div>
                         </div>
                     </div>
