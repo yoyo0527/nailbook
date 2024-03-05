@@ -151,7 +151,7 @@ export function SkillPage() {
                         <div className="col-xl-12 mx-auto">
                             <div className="cta-inner bg-faded rounded">
                                 <img className="img-detect img-fluid mb-5 rounded d-flex mx-auto" src={detect4} alt="..." />
-                                <div className='row-xl-9'>
+                                {/* <div className='row-xl-6'>
                                     <ul class="list-unstyled list-hours mb-5 text-left mx-auto" style={{ display: 'flex', flexDirection: 'column' }}>
                                         <li class="d-flex" style={{ display: 'flex', alignItems: 'flex-start' }}>
                                             <p className='contentfont' style={{ marginRight: '10%', whiteSpace: 'nowrap' }}><b>卷積神經網絡（CNN）</b></p>
@@ -166,7 +166,28 @@ export function SkillPage() {
                                             <span className="ms-auto"><p className='contentfont'>適用於特徵維度較高的資料。</p></span>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
+                                <div className="row">
+                                    <div className="col-xl-4">
+                                        <div className='row-xl-2'>
+                                            <p className='contentfont'><b>卷積神經網絡（CNN）</b></p>
+                                            <p className='contentfont'>應用廣泛且效果顯著。</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-xl-4">
+                                        <div className='row-xl-2'>
+                                            <p className='contentfont'><b>循環神經網絡（RNN）​</b></p>
+                                            <p className='contentfont'>用於處理序列數據。</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-xl-4">
+                                        <div className='row-xl-2'>
+                                            <p className='contentfont'><b>支持向量機（SVM）　</b></p>
+                                            <p className='contentfont'>適用於特徵維度較高的資料。</p>
+                                        </div>
+                                    </div>
+
+                                </div>                            
                             </div>
                         </div>
                     </div>
