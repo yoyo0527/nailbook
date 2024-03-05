@@ -152,19 +152,18 @@ export function SkillPage() {
                         </div>
                         <img className="img-detect mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={detect4} alt="..." />
                         <div className="product-item-description d-flex mx-auto">
-                            <div className="bg-faded p-5 rounded d-flex flex-row mx-auto" style={{ gap: '10%' }}>
+                            <div className="bg-faded p-5 rounded d-flex flex-row mx-auto" style={{gap:'10%'}}>
                                 <div className='col'>
-                                    <p className="contentfont text-center"><b>卷積神經網絡（CNN）​</b></p>
+                                    <p className="contentfont "><b>卷積神經網絡（CNN）​</b></p>
                                     <p className="contentfont">應用廣泛且效果顯著。</p>
                                 </div>
                                 <div className='col'>
-                                    <p className="contentfont text-center"><b>循環神經網絡（RNN）​</b></p>
+                                    <p className="contentfont"><b>循環神經網絡（RNN）​</b></p>
                                     <p className="contentfont">用於處理序列數據。</p>
                                 </div>
                                 <div className='col'>
-                                    <p className="contentfont text-center"><b>支持向量機（SVM）</b></p>
+                                    <p className="contentfont"><b>支持向量機（SVM）</b></p>
                                     <p className="contentfont">適用於特徵維度較高的資料。</p>
-                                    
                                 </div>
                             </div>
                         </div>
