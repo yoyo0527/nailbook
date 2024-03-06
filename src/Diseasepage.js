@@ -76,13 +76,13 @@ export function DiseasePage() {
                 <div className="container">
                     <div className="product-item">
                         <div className="product-item-description">
-                            <div className="bg-faded p-1 rounded">
+                            <div className="bg-faded p-1 rounded ">
                                 <ul className="d-flex list-unstyled" >
-                                    <li style={{paddingRight: '5%'}}><b><p className="contentfont mb-3"><a href="#graynail">灰指甲</a></p></b></li>
-                                    <li style={{paddingRight: '5%'}}><b><p className="contentfont mb-3"><a href="#clubbing">杵狀指</a></p></b></li>
-                                    <li style={{paddingRight: '5%'}}><b><p className="contentfont mb-3"><a href="#beaus">博氏線</a></p></b></li>
-                                    <li style={{paddingRight: '5%'}}><b><p className="contentfont mb-3"><a href="#blackline">縱向黑甲症</a></p></b></li>
-                                    <li style={{paddingRight: '5%'}}><b><p className="contentfont mb-3"><a href="#whitedot">白甲</a></p></b></li>
+                                    <li style={{margin: '5%'}}><b><p className="contentfont mb-3"><a href="#graynail">灰指甲</a></p></b></li>
+                                    <li style={{margin: '5%'}}><b><p className="contentfont mb-3"><a href="#clubbing">杵狀指</a></p></b></li>
+                                    <li style={{margin: '5%'}}><b><p className="contentfont mb-3"><a href="#beaus">博氏線</a></p></b></li>
+                                    <li style={{margin: '5%'}}><b><p className="contentfont mb-3"><a href="#blackline">縱向黑甲症</a></p></b></li>
+                                    <li style={{margin: '5%'}}><b><p className="contentfont mb-3"><a href="#whitedot">白甲</a></p></b></li>
                                 </ul>
                             </div>
                         </div>
