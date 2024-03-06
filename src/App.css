@@ -7,8 +7,28 @@
   background-color: rgb(209, 150, 110);
 }
 
+.bg-faded-inside {
+  background-color: rgb(241,241,241);
+}
+
+.bg-faded-head {
+  background-color: rgb(88,113,48);
+}
+
 .contentfont {
   font-size: 150%;
+}
+
+.diseasefont {
+  font-size: 150%;
+}
+
+.diseasehead {
+  color: white;
+}
+
+a {
+  color: rgb(22, 83, 173);
 }
 
 .img-fluid-set {
@@ -25,7 +45,7 @@
 }
 
 .img-detect {
-  width: 70%;
+  width: 74%;
 }
 
 .bg-faded-home {
