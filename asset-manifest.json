@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/nailbook/static/css/main.b3e5160b.css",
-    "main.js": "/nailbook/static/js/main.74b84e87.js",
+    "main.css": "/nailbook/static/css/main.6976a242.css",
+    "main.js": "/nailbook/static/js/main.c80dff5e.js",
     "static/js/592.657f17f4.chunk.js": "/nailbook/static/js/592.657f17f4.chunk.js",
-    "static/media/bg.png": "/nailbook/static/media/bg.231e7bdf6d7b0b2f22c4.png",
     "static/media/purpose.png": "/nailbook/static/media/purpose.f672971dee1f95cfcfa7.png",
     "static/media/intro.png": "/nailbook/static/media/intro.49298f2e5cd1a809559b.png",
     "static/media/whitedot6.png": "/nailbook/static/media/whitedot6.b6c572faf05126dad34c.png",
@@ -32,14 +31,15 @@
     "static/media/graynail.jpg": "/nailbook/static/media/graynail.e1dc1e566132000ae2b1.jpg",
     "static/media/down_arrow.png": "/nailbook/static/media/down_arrow.002d2a13962d1170c288.png",
     "static/media/detect2.jpg": "/nailbook/static/media/detect2.c5a2762b08f3e6164673.jpg",
+    "static/media/bg.jpg": "/nailbook/static/media/bg.7b96db4e2b465dafce5e.jpg",
     "static/media/clubbing.jpg": "/nailbook/static/media/clubbing.dcb091ef2e3e11587cfc.jpg",
     "index.html": "/nailbook/index.html",
-    "main.b3e5160b.css.map": "/nailbook/static/css/main.b3e5160b.css.map",
-    "main.74b84e87.js.map": "/nailbook/static/js/main.74b84e87.js.map",
+    "main.6976a242.css.map": "/nailbook/static/css/main.6976a242.css.map",
+    "main.c80dff5e.js.map": "/nailbook/static/js/main.c80dff5e.js.map",
     "592.657f17f4.chunk.js.map": "/nailbook/static/js/592.657f17f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3e5160b.css",
-    "static/js/main.74b84e87.js"
+    "static/css/main.6976a242.css",
+    "static/js/main.c80dff5e.js"
   ]
 }
