@@ -75,17 +75,15 @@ export function DiseasePage() {
             <section className="page-section">
                 <div className="container">
                     <div className="product-item">
-                        <div className="product-item-description d-flex mx-auto">
-                            <div className="bg-faded p-5 rounded me-auto">
-                                <ul>
-                                    <li><p className="contentfont mb-3"><a href="#graynail">灰指甲</a></p></li>
-                                    <li><p className="contentfont mb-3"><a href="#clubbing">杵狀指</a></p></li>
-                                    <li><p className="contentfont mb-3"><a href="#beaus">博氏線</a></p></li>
-                                    <li><p className="contentfont mb-3"><a href="#blackline">縱向黑甲症</a></p></li>
-                                    <li><p className="contentfont mb-3"><a href="#whitedot">白甲</a></p></li>
-
+                        <div className="product-item-description">
+                            <div className="bg-faded p-5 rounded me-auto ">
+                                <ul className="d-flex list-unstyled" >
+                                    <li style={{paddingRight: '10%'}}><b><p className="contentfont mb-3"><a href="#graynail">灰指甲</a></p></b></li>
+                                    <li style={{paddingRight: '10%'}}><b><p className="contentfont mb-3"><a href="#clubbing">杵狀指</a></p></b></li>
+                                    <li style={{paddingRight: '10%'}}><b><p className="contentfont mb-3"><a href="#beaus">博氏線</a></p></b></li>
+                                    <li style={{paddingRight: '10%'}}><b><p className="contentfont mb-3"><a href="#blackline">縱向黑甲症</a></p></b></li>
+                                    <li style={{paddingRight: '10%'}}><b><p className="contentfont mb-3"><a href="#whitedot">白甲</a></p></b></li>
                                 </ul>
-                                
                             </div>
                         </div>
                     </div>
